@@ -1,0 +1,12 @@
+# Language detection rules
+# Exclude build artifacts
+node_modules/* linguist-vendored
+*.jpg binary
+*.map linguist-generated
+*.min.css linguist-generated
+*.bat text eol=crlf
+
+public/**/*.html linguist-vendored
+dist/* linguist-vendored
+app/*.tsx linguist-detectable
+vendor/* linguist-vendored
